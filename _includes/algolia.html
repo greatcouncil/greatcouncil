@@ -20,12 +20,7 @@ const hitTemplate = function(hit) {
 
   const title = hit._highlightResult.title.value;
 
-  let breadcrumbs = '';
-  if (hit._highlightResult.headings) {
-    breadcrumbs = hit._highlightResult.headings.map(match => {
-      return `<span class="post-breadcrumb">${match.value}</span>`
-    }).join(' > ')
-  }
+
 
   const content = hit._highlightResult.html.value;
 
@@ -33,7 +28,6 @@ const hitTemplate = function(hit) {
     <div class="post-item">
       <span class="post-meta">${date}</span>
       <h2><a class="post-link" href="${url}">${title}</a></h2>
-      {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
       <div class="post-snippet">${content}</div>
     </div>
   `;
