@@ -70,3 +70,8 @@ algolia:
       - collection,categories,tags
       - unordered(parts.name)
       - unordered(ouverture)
+
+collections:
+    youtube:
+      output: true
+      permalink: /youtube/:path/
