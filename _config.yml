@@ -63,3 +63,6 @@ algolia:
    application_id: K3412NKPE1
    index_name: dev
    search_only_api_key: 1ea751f5c1ff3b25f9b53ac518666c7e
+
+collections:
+ - youtube
