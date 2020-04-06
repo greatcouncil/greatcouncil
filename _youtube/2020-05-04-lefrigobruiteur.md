@@ -4,6 +4,7 @@ title: lefrigobruiteur vs Blitzstream
 date: 05/04/2020
 youtube: https://youtu.be/OaIsoKFMB7E?t=2353
 ouverture: italienne
+elo: 700 800 900 1000
 themes:
 - "[Attaque au centre](https://youtu.be/OaIsoKFMB7E)"
 - "[Fourchette de pion](https://youtu.be/OaIsoKFMB7E?t=2479)"
