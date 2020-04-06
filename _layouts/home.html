@@ -6,10 +6,14 @@ layout: default
 
   {{ content }}
 
-  <h1 class="page-heading">Vidéos</h1>
 
-  <div id="search-searchbar"></div>
+  <div id="search-searchbar">      
+  </div>
+  <small><i>Chercher par un thème, ouverture, tranche elo, etc (plus de détails).
+  Exemple: "scandinave 1600"</i></small>
 
+
+  <br><hr>
   <div class="post-list" id="search-hits">
     {% for post in site.pages %}
       <div class="post-item">
