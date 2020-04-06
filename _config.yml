@@ -68,7 +68,6 @@ algolia:
       - title
       - unordered(content)
       - collection,categories,tags
-      - unordered(parts.name)
       - unordered(ouverture)
 
 collections:
