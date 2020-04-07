@@ -31,11 +31,17 @@ const hitTemplate = function(hit) {
   `;
 }
 
+Array.prototype.sample = function(){
+  return this[Math.floor(Math.random()*this.length)];
+}
 
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-searchbar',
-    placeholder: 'Search into posts...',
+    placeholder: ['scandinave 1600',
+        'mat escalier',
+        'E4 E5',
+        'finale tours'].sample(),
     poweredBy: true // This is required if you're on the free Community plan
   })
 );
