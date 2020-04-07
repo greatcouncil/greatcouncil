@@ -39,6 +39,8 @@ algolia:
       - unordered(content)
       - collection,categories,tags
       - unordered(ouverture)
+      - unordered(elo)  
+
 
 collections:
     youtube:
