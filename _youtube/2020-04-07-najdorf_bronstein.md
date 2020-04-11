@@ -9,6 +9,5 @@ themes:
 - "[Attaque roi en doublant les pions devant lui](https://youtu.be/xkPwf4_Cqls?t=485)"
 - "[Attaque avec Dame et cavalier](https://youtu.be/xkPwf4_Cqls?t=566)"
 ---
-
-[Full game]({{ page.youtube }})  
-{{ page.themes | join: " <br> " }}
+ 
+{{ page.themes | join: " / " }}

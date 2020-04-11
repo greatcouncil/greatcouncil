@@ -40,7 +40,15 @@ algolia:
       - collection,categories,tags
       - unordered(ouverture)
       - unordered(elo)  
-
+    attributesToHighlight:
+      - categories                                                               
+      - collection                                                               
+      - content                                                                  
+      - headings                                                                 
+      - html                                                                     
+      - tags                                                                     
+      - title                                                                    
+      - youtube  
 
 collections:
     youtube:

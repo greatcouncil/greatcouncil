@@ -9,26 +9,9 @@ layout: default
 
   <div id="search-searchbar">      
   </div>
-  <small><i>Chercher par un thème, ouverture, tranche elo, etc (plus de détails).
-  Exemple: "scandinave 1600"</i></small>
 
-
-  <br><hr>
   <div class="post-list" id="search-hits">
-    {% for post in site.pages %}
-      <div class="post-item">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h2>
-
-        <div class="post-snippet">{{ post.excerpt }}</div>
-      </div>
-    {% endfor %}
   </div>
 
   {% include algolia.html %}

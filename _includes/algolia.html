@@ -21,12 +21,12 @@ const hitTemplate = function(hit) {
   const title = hit._highlightResult.title.value;
 
   const content = hit._highlightResult.html.value;
-
+  const youtube = hit._highlightResult.youtube.value;
   return `
     <div class="post-item">
-      <span class="post-meta">${date}</span>
-      <h2><a class="post-link" href="${url}">${title}</a></h2>
-      <div class="post-snippet">${content}</div>
+      
+      <span class="post-meta">${date}</span> <a  href="${youtube}">${title}</a>
+      <i>${content}</i>
     </div>
   `;
 }

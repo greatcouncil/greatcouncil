@@ -11,8 +11,7 @@ themes:
 - "[Gambit Dame C4](https://youtu.be/OaIsoKFMB7E?t=1679)"
 ---
 
-[Full game]({{ page.youtube }})  
-{{ page.themes | join: " <br> " }}
+{{ page.themes | join: " / " }}
 
 
 

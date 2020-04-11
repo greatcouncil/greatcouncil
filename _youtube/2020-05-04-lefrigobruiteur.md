@@ -14,5 +14,4 @@ themes:
 ---
 
 
-[Full game]({{ page.youtube }})  
-{{ page.themes | join: " <br> " }}
+{{ page.themes | join: " / " }}

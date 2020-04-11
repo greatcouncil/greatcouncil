@@ -9,5 +9,4 @@ themes:
 - "[Finale gagnante, 2 fous contre 1](https://youtu.be/OaIsoKFMB7E?t=2196)"
 ---
 
-[Full game]({{ page.youtube }})  
-{{ page.themes | join: " <br> " }}
+{{ page.themes | join: " / " }}
