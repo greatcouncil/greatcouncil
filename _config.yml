@@ -1,9 +1,9 @@
-title: G4DTG
+title: Emojictionary
 author:
   name: kraymer
-  email: kraymer+g4dtg@gmail.com
+  email: kraymer+emojictionary@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Moteur de recherche pour les parties pédagogiques de blitzstream <https://www.twitch.tv/blitzstream>, histoire de rentabiliser mon temps de confinement.
+  Descriptions d'emojis et meme associés.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -31,26 +31,26 @@ plugins:
 
 algolia:
    application_id: K3412NKPE1
-   index_name: dev
+   index_name: emojis
    search_only_api_key: 1ea751f5c1ff3b25f9b53ac518666c7e
    settings:
     searchableAttributes:
       - title
       - unordered(content)
-      - collection,categories,tags
-      - unordered(ouverture)
-      - unordered(elo)  
+      - tags
+      - text
+      - img
     attributesToHighlight:
       - categories                                                               
       - collection                                                               
       - content                                                                  
-      - headings                                                                 
-      - html                                                                     
-      - tags                                                                     
-      - title                                                                    
-      - youtube  
+      - headings  
+      - title                                                                                                                                   
+      - tags  
+      - html   
+      - img                                                               
 
 collections:
-    youtube:
+    emojis:
       output: true
-      permalink: /youtube/:path/
+      permalink: /emojis/:path/

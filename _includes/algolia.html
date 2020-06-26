@@ -17,31 +17,32 @@ const hitTemplate = function(hit) {
   }
 
   let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
-
+  let img = `{{ site.baseurl }}/static/img/${hit._highlightResult.img.value}`;
   const title = hit._highlightResult.title.value;
 
+  // let breadcrumbs = '';
+  // if (hit._highlightResult.headings) {
+  //   breadcrumbs = hit._highlightResult.headings.map(match => {
+  //     return `<span class="post-breadcrumb">${match.value}</span>`
+  //   }).join(' > ')
+  // }
+
+  
   const content = hit._highlightResult.html.value;
-  const youtube = hit._highlightResult.youtube.value;
+
   return `
     <div class="post-item">
-      
-      <span class="post-meta">${date}</span> <a  href="${youtube}">${title}</a>
-      <i>${content}</i>
+      <h2><img src="${img}" width=32 height=32> ${title}</h2>
+      ${content}
     </div>
   `;
 }
 
-Array.prototype.sample = function(){
-  return this[Math.floor(Math.random()*this.length)];
-}
 
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-searchbar',
-    placeholder: ['scandinave 1600',
-        'mat escalier',
-        'E4 E5',
-        'finale tours'].sample(),
+    placeholder: 'Search into posts...',
     poweredBy: true // This is required if you're on the free Community plan
   })
 );
