@@ -1,13 +1,7 @@
 ---
 layout: post
 title: lobster
-img: lobster.png
-
-tags:
-- sorry
+img: 30_year_old_boomer.png
+kym: https://knowyourmeme.com/memes/30-year-old-boomer
 ---
-The lobster emoji was first released with 8 legs, which triggered a public revolt (nicknamed the _lobstergate_) in the emoji world.
-Unicode consortium had to release a v2 version with the 2 missing additional legs and publish an apology tweet.
-Hence, lobster is now synonym of mea culpa.
-[More infos](https://www.cosmopolitan.com/lifestyle/a18567442/lobster-emoji-drama/)
-
+30-Year-Old Boomer is mocking older millennials who enjoy things that are considered to be out of touch with younger millennials.
