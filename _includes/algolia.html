@@ -31,7 +31,7 @@ const hitTemplate = function(hit) {
   const content = hit._highlightResult.html.value;
   let kym = '';
   if (hit.kym) {
-    kym = `<a href="${hit.kym}"><img src="{{ site.baseurl }}/static/img/kym.png"></a>`
+    kym = `<a href="${hit.kym}" taget="_blank"><img src="{{ site.baseurl }}/static/img/kym.png"></a>`
   }
   return `
     <div class="post-item">
