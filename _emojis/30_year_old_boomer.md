@@ -1,6 +1,6 @@
 ---
 layout: post
-title: lobster
+title: 30 year old boomer
 img: 30_year_old_boomer.png
 kym: https://knowyourmeme.com/memes/30-year-old-boomer
 ---
