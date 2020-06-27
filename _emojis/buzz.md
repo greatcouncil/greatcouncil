@@ -1,6 +1,7 @@
 ---
 layout: post
 title: buzz
+img: buzz.png
 
 tags:
 - toy story
