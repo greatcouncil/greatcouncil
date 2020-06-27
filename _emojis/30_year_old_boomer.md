@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 30 year old boomer
+title: 30_year_old_boomer
 img: 30_year_old_boomer.png
 kym: https://knowyourmeme.com/memes/30-year-old-boomer
 ---

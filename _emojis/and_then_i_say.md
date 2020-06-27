@@ -1,6 +1,6 @@
 ---
 layout: post
-title: and then i said
+title: and_then_i_said
 img: and_then_i_said.png
 kym: https://knowyourmeme.com/memes/and-then-i-said
 ---
