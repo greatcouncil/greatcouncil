@@ -5,6 +5,13 @@
 # To change the home page layout, edit the _layouts/home.html file.
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
-layout: home
+layout: page
 ---
 
+<b>Must-have emojis pack for a fun & effective communication in the corporate world.</b>
+
+AlphaOmegaEmoji provides XX hand-picked emojis for slack allowing you to properly
+communicate your feelings.  
+Most of the images are extracted from common internet memes while others are 
+process-oriented, filling gaps in the default emoji set.
+ 

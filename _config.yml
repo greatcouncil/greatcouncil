@@ -1,9 +1,10 @@
-title: Emojictionary
+title: AlphaOmegaEmoji
 author:
   name: kraymer
   email: kraymer+emojictionary@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Descriptions d'emojis et meme associés.
+  Must-have emojis pack for a fun & effective communication in the corporate world. 
+  
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -31,6 +32,10 @@ plugins:
 
 algolia:
    application_id: K3412NKPE1
+   files_to_exclude:
+      - download.md
+      - search.md
+      - index.md
    index_name: emojis
    search_only_api_key: 1ea751f5c1ff3b25f9b53ac518666c7e
    settings:
