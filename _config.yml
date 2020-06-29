@@ -55,7 +55,6 @@ algolia:
       - html                                                                     
       - img                                                                      
       - tags                                                                     
-      - title
 
 collections:
     emojis:
