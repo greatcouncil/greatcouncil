@@ -1,4 +1,4 @@
-title: AlphaOmegaEmoji
+title: Alphameme
 author:
   name: kraymer
   email: kraymer+emojictionary@gmail.com
@@ -39,21 +39,23 @@ algolia:
    index_name: emojis
    search_only_api_key: 1ea751f5c1ff3b25f9b53ac518666c7e
    settings:
+    customRanking:                                                               
+      - asc(title) 
     searchableAttributes:
       - title
       - unordered(content)
       - tags
       - text
       - img
-    attributesToHighlight:
+    attributesToHighlight:                                                       
       - categories                                                               
       - collection                                                               
       - content                                                                  
-      - headings  
-      - title                                                                                                                                   
-      - tags  
-      - html   
-      - img                                                               
+      - headings                                                                 
+      - html                                                                     
+      - img                                                                      
+      - tags                                                                     
+      - title
 
 collections:
     emojis:
