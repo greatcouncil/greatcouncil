@@ -1,7 +1,7 @@
 ---
 layout: post
 title: eyes_bleed
-img: eys_bleed.png
+img: eyes_bleed.png
 
 tags:
 - errors
