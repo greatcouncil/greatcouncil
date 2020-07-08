@@ -59,4 +59,4 @@ algolia:
 collections:
     emojis:
       output: true
-      permalink: /emojis/:path/
+      permalink: /define/:path/
