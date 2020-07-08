@@ -1,7 +1,6 @@
 ---
 layout: post
-title: philosoraptor
-img: philosoraptor.png
-kym: https://knowyourmeme.com/memes/philosoraptor
+title: yeah_right
+img: yeah_right.png
 ---
-When you are deeply immersed in metaphysical inquiries or unraveling quirky paradoxes.
+When you put a dash of doubt on what someone has said.
