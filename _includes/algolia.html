@@ -31,11 +31,16 @@ const hitTemplate = function(hit) {
   const content = hit._highlightResult.html.value;
   let kym = '';
   if (hit.kym) {
-    kym = `<a href="${hit.kym}" taget="_new"><img src="{{ site.baseurl }}/static/img/kym.png"></a>`
+    kym = `<a href="${hit.kym}" target="_new"><img src="{{ site.baseurl }}/static/img/kym.png"></a>`
+  }
+  let alias = ''
+  if (hit.alias) {
+    alias = `<small>aka ${hit.alias}</small>`
   }
   return `
     <div class="post-item">
-      <span id="${title}"><h2><img src="${img}" width=32 height=32> ${title} ${kym}</h2></span>
+      <span id="${title}"><img src="${img}" width=32 height=32> <b>${title}</b> ${alias} ${kym}</span>
+      
       ${content}
     </div>
   `;
