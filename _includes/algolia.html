@@ -39,7 +39,7 @@ const hitTemplate = function(hit) {
   }
   return `
     <div class="post-item">
-      <span id="${title}"><img src="${img}" width=32 height=32> <b>${title}</b> ${alias} ${kym}</span>
+      <span id="${title}"><img src="${img}" width=32 height=32> <b><a href="/define/${title}">${title}</a></b> ${alias} ${kym}</span>
       
       ${content}
     </div>
