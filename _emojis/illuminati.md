@@ -1,8 +1,8 @@
 ---
 layout: post
-title: honey_badger
-img: honey_badger.png
-kym: https://knowyourmeme.com/memes/honey-badger
+title: illuminati
+img: illuminati.png
+kym: https://knowyourmeme.com/memes/the-illuminati
 tags:
 - conspiracy theory
 ---
