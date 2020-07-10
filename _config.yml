@@ -47,6 +47,7 @@ algolia:
       - tags
       - text
       - img
+      - alias
     attributesToHighlight:                                                       
       - categories                                                               
       - collection                                                               
