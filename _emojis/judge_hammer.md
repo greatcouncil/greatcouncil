@@ -1,5 +1,5 @@
 ---
-layout: judge_hammer
+layout: post
 title: judge_hammer
 img: judge_hammer.gif
 ---
