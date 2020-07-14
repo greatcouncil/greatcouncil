@@ -5,4 +5,4 @@ img: stamp.png
 tags:
 - process   
 ---
-Use the stamp as a sign of acknowledgment that you've read something.
+Use the stamp as a sign of acknowledgment that you've read a previous statement.
