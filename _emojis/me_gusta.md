@@ -1,7 +1,7 @@
 ---
 layout: post
 title: me_gusta
-img: me_gusta.png
+img: me_gusta.jpg
 kym: https://knowyourmeme.com/memes/me-gusta
 tags:
 - like
