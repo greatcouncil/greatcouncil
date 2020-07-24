@@ -1,8 +1,7 @@
 ---
 layout: post
-title: honey_badger
-img: honey_badger.png
-kym: https://knowyourmeme.com/memes/honey-badger
+title: idiot_sandwich
+img: idiot_sandwich.png
+kym: https://knowyourmeme.com/memes/an-idiot-sandwich
 ---
-To use when you _"don't give a shit"_.
-Made famous by [this viral video](https://youtu.be/4r7wHMg5Yjg)
+"An Idiot Sandwich" refers to a scene in which Gordon Ramsey holds a kitchen assistant head between two slices of bread while yelling at her. Use it to acknowledge your own mistakes when you're under fire.
