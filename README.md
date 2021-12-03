@@ -1,1 +1,1 @@
-# GreatCouncil.club
+# [GreatCouncil.club](GreatCouncil.club)
