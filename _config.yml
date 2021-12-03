@@ -36,6 +36,8 @@ algolia:
       - wall_of_shame.md
       - search.md
       - index.md
+      - gotchas.md
+
    index_name: emojis
    search_only_api_key: 1ea751f5c1ff3b25f9b53ac518666c7e
    settings:

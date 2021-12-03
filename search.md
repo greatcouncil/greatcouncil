@@ -1,6 +1,6 @@
 ---
 layout: search
-title: Search
+title: Memojis
 permalink: /search/
 ---
 
