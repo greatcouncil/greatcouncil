@@ -33,7 +33,7 @@ plugins:
 algolia:
    application_id: K3412NKPE1
    files_to_exclude:
-      - download.md
+      - wall_of_shame.md
       - search.md
       - index.md
    index_name: emojis
