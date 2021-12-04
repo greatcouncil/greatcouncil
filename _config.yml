@@ -1,10 +1,9 @@
 title: GC
 author:
-  name: Fabrice
   email: hi@greatcouncil.club
 description: > # this means to ignore newlines until "show_excerpts:"
   Vulgarization website from the Great Council authority for a proper usage of slack in the company.
-  
+header_logo: android-chrome-192x192.png  
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
