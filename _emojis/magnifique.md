@@ -1,6 +1,6 @@
 ---
 layout: post
 title: magnifique
-img: magnifique.png
+img: magnifique.gif
 ---
 TODO
