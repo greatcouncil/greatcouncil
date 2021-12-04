@@ -1,6 +1,6 @@
 ---
 layout: post
-title: judgmental-doggo
-img: judgmental-doggo.gif
+title: judgmental_doggo
+img: judgmental_doggo.png
 ---
 TODO
