@@ -17,7 +17,7 @@ following the standard.
 
 <h3><b>GC is watching you</b></h3>
 
-Besides is role as caretaker of custom emojis, the GC is in charge of secret files
+Besides its role as caretaker of custom emojis, the GC is in charge of secret files
 related to the activity of members of _The company_ and strive to reduce influence of
 others occult rivals organizations.  
 The GC board is composed of four permanent members whose identity is kept secret.
