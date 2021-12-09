@@ -11,7 +11,7 @@ layout: page
 <h3><b>Hand-picked highest quality emojis since 2017</b></h3>
 
 The GC is an occult organization that promotes an extended version of the emolang.  
-Direct benefits for the supporter of this movement is that they can properly communicate
+Direct benefits for the supporters of this movement is that they can properly communicate
 their feelings compared to the ludicrously small range of reactions available to people
 following the standard.
 
