@@ -8,7 +8,7 @@ permalink: /gotchas/
 
 - `!crow` display a crow flight à la Nicky Larson
 - `!gna` when running out of words
-- `!sthgwrong` epitomize the ultimate forfeiture
+- `!something_wrong` `!sw` epitomize the ultimate forfeiture
 
 ## Expressions
 
