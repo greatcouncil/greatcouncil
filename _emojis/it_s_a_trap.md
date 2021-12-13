@@ -3,6 +3,7 @@ layout: post
 title: it_s_a_trap
 img: it_s_a_trap.png
 kym: https://knowyourmeme.com/memes/its-a-trap
+yt: https://www.youtube.com/watch?v=4F4qzPbcFiA
 ---
 Used as a warning of any potential danger.   
 The phrase stems from a memorable quote said by Admiral Ackbar, during the Battle of Endor in the 1983 Star Wars film _Episode VI: Return of the Jedi_.
