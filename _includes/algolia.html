@@ -33,13 +33,17 @@ const hitTemplate = function(hit) {
   if (hit.kym) {
     kym = `<a href="${hit.kym}" target="_new"><img src="{{ site.baseurl }}/static/img/kym.png"></a>`
   }
+  let yt = '';
+  if (hit.yt) {
+    yt = `<a href="${hit.yt}" target="_new"><img src="{{ site.baseurl }}/static/img/yt.png"></a>`
+  }
   let alias = ''
   if (hit.alias) {
     alias = `<small>aka ${hit.alias}</small>`
   }
   return `
     <div class="post-item">
-      <span id="${title}"><img src="${img}" width=32 height=32> <b><a href="/define/${title}">${title}</a></b> ${alias} ${kym}</span>
+      <span id="${title}"><img src="${img}" width=32 height=32> <b><a href="/define/${title}">${title}</a></b> ${alias} ${kym}${yt}</span>
       
       ${content}
     </div>
