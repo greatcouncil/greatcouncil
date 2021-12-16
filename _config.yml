@@ -48,8 +48,8 @@ algolia:
       - unordered(content)
       - tags
       - text
-      - img
       - alias
+      - alt
     attributesToHighlight:                                                       
       - categories                                                               
       - collection                                                               
