@@ -19,14 +19,6 @@ const hitTemplate = function(hit) {
   let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
   let img = `{{ site.baseurl }}/static/img/emojis/${hit.img}`;
   const title = hit.title;
-
-  // let breadcrumbs = '';
-  // if (hit._highlightResult.headings) {
-  //   breadcrumbs = hit._highlightResult.headings.map(match => {
-  //     return `<span class="post-breadcrumb">${match.value}</span>`
-  //   }).join(' > ')
-  // }
-
   
   const content = hit._highlightResult.html.value;
   let kym = '';
@@ -35,7 +27,7 @@ const hitTemplate = function(hit) {
   }
   let yt = '';
   if (hit.yt) {
-    yt = `<a href="${hit.yt}" target="_new"><img src="{{ site.baseurl }}/static/img/yt.png"></a>`
+    yt = `&nbsp; <a href="${hit.yt}" target="_new"><img src="{{ site.baseurl }}/static/img/yt.png"></a>`
   }
   let alias = ''
   if (hit.alias) {
