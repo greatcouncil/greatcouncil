@@ -35,7 +35,7 @@ algolia:
       - wall_of_shame.md
       - search.md
       - index.md
-      - mole.md
+      - _emojis/mole.md
       - gotchas.md
 
    index_name: emojis
